@@ -43,9 +43,28 @@ example_text = "there's a lot of text in this text"
 # print(example_text.count("text"))
 
 # some useful string methods
-print(example_text)
-print(example_text.upper()) # capitalises all letters
-print(example_text.lower()) # lowercases all letters
-print(example_text.capitalize()) # capitalises the first letter
-print(example_text.replace("lot", "lol")) # replaces a substring with another
+# print(example_text)
+# print(example_text.upper()) # capitalises all letters
+# print(example_text.lower()) # lowercases all letters
+# print(example_text.capitalize()) # capitalises the first letter
+# print(example_text.replace("lot", "lol")) # replaces a substring with another
+
+# concatenation
+first_name = "James" # string
+last_name = "Bond" # string
+age = 99 # int
+
+print(first_name + " " + last_name)
+print(first_name, last_name)
+
+# casting int to str
+print(first_name + " " + last_name + ", " + str(age)) # str() converts other datatypes to string
+
+# casting str to int
+age = "99"
+print(type(int(age)))
+
+# formatting a string
+print(f"Your first name is {first_name}, your last name is {last_name}, and you are {age} years old")
+
 

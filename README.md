@@ -45,3 +45,4 @@ H e l l o   W o r l d  !
 - Formatting
 - `print(f"Your first name is {first_name}, your last name is {last_name}, and you are {age} years old")`
 - The formatting allows to format a variable's value inside the string
+
